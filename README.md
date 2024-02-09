@@ -29,19 +29,19 @@ sp.percent_health.set_cur_health(1, 2000)
 This will set player id `1`'s max and current health to `2000`.
 
 Functions:
--- Must use to initialize a player, all players are reset on round start.
+- Must use to initialize a player, all players are reset on round start.
 `sp.percent_health.add_player(p)`
 
--- Use this to reset a player manually.
+- Use this to reset a player manually.
 `sp.percent_health.rem_player(p)`
 
--- Set current health of a player.
+- Set current health of a player.
 `sp.percent_health.set_cur_health(p, health)`
 
--- Set max health of a player.
+- Set max health of a player.
 `sp.percent_health.set_max_health(p, health)`
 
--- Receive values from a specific player.
+- Receive values from a specific player.
 `sp.percent_health.get(p, value)`
 Values (string):
 ```lua
