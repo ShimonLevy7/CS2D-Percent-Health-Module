@@ -62,3 +62,5 @@ config.show_credits		= true	-- Show credits in the console on load?
 - Lines of code: 171
 - Is commented: Yes.
 - Time to create: About 2 hours.
+
+**You must add the `mt.NoReload.lua` script to the `autorun` folder or the `server.lua` file, otherwise it will not execute.**
