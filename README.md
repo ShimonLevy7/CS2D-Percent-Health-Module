@@ -43,6 +43,7 @@ Functions:
 
 - Receive values from a specific player.
 `sp.percent_health.get(p, value)`
+
 Values (string):
 ```lua
 "added",
